@@ -10,6 +10,10 @@ Below will be an image with caption.
 
 ![alt text which comes when image is not there goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)
 
+Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https://example.com)`
+
+[![alt text which comes when image is not there goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)](Click me! I'm a photo link)
+
 ## Using code - remember to use a backslash (\\) as escape character
 
 `[some text which will be shown for link] (link address)`
@@ -100,8 +104,6 @@ console.log(a);
 ```
 
 Simply, trying to display a url in a paragraph, `https://example.com` (use backticks \`) or <https://example.com> (use <>)
-
-Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https://example.com)`
 
 ## Tables
 
