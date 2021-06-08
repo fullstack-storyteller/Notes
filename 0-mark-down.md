@@ -76,8 +76,6 @@ Numbered List
    2. point 2 of 2
 3. Point 3
 
-## Checkboxes
+## Code
 
-[ ] A
-[x] B
-[ ] C
+This is `code`.
