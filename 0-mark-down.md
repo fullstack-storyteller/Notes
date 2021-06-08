@@ -79,3 +79,11 @@ Numbered List
 ## Code
 
 This is `code`.
+
+```text
+This is normal, continuous text.
+  This is the first line of the code block.
+     The second line is further indented.
+  This is another line of code block.
+This is where continuous text begins again.
+```
