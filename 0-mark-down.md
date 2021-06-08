@@ -103,9 +103,18 @@ Simply, trying to display a url in a paragraph, `https://example.com` (use backt
 
 Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https://example.com)`
 
-## Tables:
+## Tables
 
 | Column 1 | Column 2 |
 | -------- | -------- |
 | A        | B        |
 | C        | D        |
+
+## Footnotes
+
+```text
+You can easily place footnotes [^2] in the continuous text [^1].
+[^1]: Here you can find the text for the footnote.
+[^2]: **Footnotes** themselves can also be *formatted*.
+And these even include several lines.
+```
