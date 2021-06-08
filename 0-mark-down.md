@@ -109,10 +109,3 @@ Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https:
 | -------- | -------- |
 | A        | B        |
 | C        | D        |
-
-## Footnotes
-
-You can easily place footnotes [^2] in the continuous text [^1].
-[^1]: Here you can find the text for the footnote.
-[^2]: **Footnotes** themselves can also be _formatted_.
-And these even include several lines.
