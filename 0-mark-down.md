@@ -8,7 +8,7 @@ This is the resource from where you learned [Markdown](https://www.ionos.com/dig
 
 Below will be an image with caption.
 
-![caption goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)
+![caption goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)
 
 ## Using code - remember to use a backslash (\\) as escape character
 
