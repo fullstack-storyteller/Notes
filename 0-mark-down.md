@@ -18,3 +18,6 @@ This is an _example with an asterisk_.
 `**Bold Text** __Bold Text__`
 `***Italic and Bold Text***`
 `___Italic and Bold Text___`
+
+`~~This text is struckthrough.~~ This one isn’t.`
+Ex: ~~This text is struckthrough.~~ This one isn’t.
