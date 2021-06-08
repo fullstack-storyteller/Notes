@@ -79,5 +79,7 @@ Numbered List
 ## Checkboxes
 
 [ ] A
+
 [x] B
+
 [ ] C
