@@ -48,6 +48,12 @@ Below is how quotes are written in Markdown
 Another section:
 
 > This is another **embedded section**. Let's call this B.
-> This section B also continues in the second like
+> This section B also continues here
 
 This line isn’t embedded any more.
+
+## Lists
+
+- Point 1
+- Point 2
+- Point 3
