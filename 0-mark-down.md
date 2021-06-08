@@ -65,9 +65,9 @@ Bulleted List
 Numbered List
 
 1. Point 1
-   > asas
-   > asdads
+   > Point 1 of 1
+   > point 2 of 1
 2. Point 2
-   1. hi there
-   2. another sub item
+   1. point 1 of 2
+   2. point 2 of 2
 3. Point 3
