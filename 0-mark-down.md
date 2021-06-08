@@ -6,7 +6,7 @@ This is the resource from where you learned [Markdown](https://www.ionos.com/dig
 
 ## Images
 
-Below will be an image with caption.
+Below will be an image with alt text.
 
 ![alt text which comes when image is not there goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)
 
