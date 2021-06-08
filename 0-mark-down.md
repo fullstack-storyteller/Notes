@@ -12,7 +12,7 @@ Below will be an image with caption.
 
 Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https://example.com)`
 
-[![alt text which comes when image is not there goes here: Picture of a dog from the internet.](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)](https://www.google.co.in/)
+[![alt text which comes when image is not there goes here: Picture of a dog from the internet. Clicking on it will take you to google](https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=60)](https://www.google.co.in/)
 
 ## Using code - remember to use a backslash (\\) as escape character
 
