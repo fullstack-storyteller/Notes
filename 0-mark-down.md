@@ -37,3 +37,15 @@ The Markdown language works with hard line breaks to separate paragraphs from ea
 
 tag), simply add an empty line. Important note: for Markdown, it’s sufficient if the line is visually empty. So if the line contains white spaces like tabs or spaces, the parser will ignore them and consider the line to be empty. If you want to create a line break like the
 tag, add two spaces at the end of a line.
+
+## Quotes
+
+Below is how quotes are written in Markdown
+
+> This is an **embedded section**. Let's call this A
+> The section A continues here
+
+> This is another **embedded section**. Let's call this B
+> This section B also continues in the second like
+
+This line isn’t embedded any more.
