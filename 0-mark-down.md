@@ -99,4 +99,4 @@ let a = 0;
 console.log(a);
 ```
 
-Simply, trying to display a url in a paragraph, `https://example.com` (use backticks \`) or <https://example.com> (use \<>)
+Simply, trying to display a url in a paragraph, `https://example.com` (use backticks \`) or <https://example.com> (use <>)
