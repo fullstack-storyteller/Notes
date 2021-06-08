@@ -22,7 +22,7 @@ This is an _example with an asterisk_.
 `~~This text is struckthrough.~~ This one isn’t.`
 Ex: ~~This text is struckthrough.~~ This one isn’t.
 
-**Text can’t be underlined in Markdown.**
+**_Text can’t be underlined in Markdown._**
 
 **Headings**
 `# Heading 1`
@@ -32,7 +32,7 @@ Ex: ~~This text is struckthrough.~~ This one isn’t.
 `##### Heading 5`
 `###### Heading 6`
 
-Paragraphs
+**_Paragraphs_**
 The Markdown language works with hard line breaks to separate paragraphs from each other. To create a completely new block of text (
 
 tag), simply add an empty line. Important note: for Markdown, it’s sufficient if the line is visually empty. So if the line contains white spaces like tabs or spaces, the parser will ignore them and consider the line to be empty. If you want to create a line break like the
