@@ -102,3 +102,10 @@ console.log(a);
 Simply, trying to display a url in a paragraph, `https://example.com` (use backticks \`) or <https://example.com> (use <>)
 
 Photo Link: `[![Here is an example image](https://example.com/image.jpg)](https://example.com)`
+
+## Tables:
+
+| Column 1 | Column 2 |
+| -------- | -------- |
+| A        | B        |
+| C        | D        |
