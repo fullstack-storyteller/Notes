@@ -42,10 +42,10 @@ tag, add two spaces at the end of a line.
 
 Below is how quotes are written in Markdown
 
-> This is an **embedded section**. Let's call this A
+> This is an **embedded section**. Let's call this A.
 > The section A continues here
 
-> This is another **embedded section**. Let's call this B
+> This is another **embedded section**. Let's call this B.
 > This section B also continues in the second like
 
 This line isn’t embedded any more.
