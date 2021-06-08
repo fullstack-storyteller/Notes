@@ -54,6 +54,14 @@ This line isn’t embedded any more.
 
 ## Lists
 
+Bulleted List
+
 - Point 1
 - Point 2
 - Point 3
+
+Numbered List
+
+1. Point 1
+2. Point 2
+3. Point 3
