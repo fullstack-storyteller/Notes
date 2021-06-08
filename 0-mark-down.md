@@ -75,3 +75,9 @@ Numbered List
    1. point 1 of 2
    2. point 2 of 2
 3. Point 3
+
+## Checkboxes
+
+[ ] A
+[x] B
+[ ] C
