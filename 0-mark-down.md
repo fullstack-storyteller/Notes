@@ -87,3 +87,8 @@ This is normal, continuous text.
   This is another line of code block.
 This is where continuous text begins again.
 ```
+
+```javascript
+let a = 0;
+console.log(a);
+```
