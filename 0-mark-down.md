@@ -4,6 +4,12 @@
 
 This is the resource from where you learned [Markdown](https://www.ionos.com/digitalguide/websites/web-development/markdown/)
 
+## Using Images in markdown
+
+Below will be an image with caption.
+
+![caption goes here: Picture of a dog from the internet.](https://duckduckgo.com/?q=unsplash%20dog%20picture&iax=images&ia=images&iai=https://i.pinimg.com/originals/ca/cb/73/cacb7379564701b0063765b1b48685de.jpg)
+
 ## Using code - remember to use a backslash (\\) as escape character
 
 `[some text which will be shown for link] (link address)`
