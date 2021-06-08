@@ -78,7 +78,7 @@ Numbered List
 
 ## Code
 
-This is `code`.
+This is `code`. Refer below for any language specific multiline code snippets.
 
 ```text
 This is normal, continuous text.
