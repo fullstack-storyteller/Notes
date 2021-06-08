@@ -45,6 +45,8 @@ Below is how quotes are written in Markdown
 > This is an **embedded section**. Let's call this A.
 > The section A continues here
 
+Another section:
+
 > This is another **embedded section**. Let's call this B.
 > This section B also continues in the second like
 
