@@ -42,9 +42,15 @@ We use ILDASM.exe (Intermediate language Dissassembler) to peek at the assembly 
 
 We use ILASM.exe (Intermediate language Assembler) tp reconstruct an assembly from a text file that contains manifest and IL.
 
-### using ILDASM and ILASM tools
+### Using ILDASM tool
 
 1. Open the visual studio command prompt as Administrator
-2. run the command `ildasm.exe fully-qualified-name-of-the-assemble-(.dll or .exe)`
+2. run the command `ildasm.exe fully-qualified-name-of-the-assembly-(.dll or .exe)`
 3. It will open the ILDASM dialog box with maifest and IL information
-4. You can use File -> Dump -> select the location to save -> save
+4. You can use File -> Dump -> select the location to save -> give a proper file name with .il extension if needed -> save
+
+### Using ILASM tool
+
+1. Open the visual studio command prompt as Administrator
+2. run the command `ilasm.exe fully-qualified-name-of-the-.il file`
+3. It will read the content of the .il file and reconstruct the assembly
