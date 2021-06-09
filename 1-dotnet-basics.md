@@ -120,4 +120,4 @@ A location which ets us store **_strongly named assemblies_** ( including multip
 
 4. **If the assembly is not found**, the application terminates with error.
 
-**Note:** **_ Version checking is not done for Weakly Named Assemblies_**
+Note: **_Version checking is not done for Weakly Named Assemblies_**
