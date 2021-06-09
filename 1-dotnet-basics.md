@@ -34,4 +34,10 @@ It provides a lot of things(to be added here later)
 ## Assemblies
 
 Any .net Application -> Compile -> Assembly (.exe or .dll)
-Assembly contains - **Manifest and IL**
+Assembly contains - **_Manifest and IL_**
+
+Some information in the assembly manifest can be mdified using attributes.
+
+We use ILDASM.exe (Intermediate language Dissassembler) to peek at the assembly manifest and IL. You can laso use this tool to export manisfest an IL to a text file.
+
+We use ILASM.exe (Intermediate language Assembler) tp reconstruct an assembly from a text file that contains manifest and IL.
