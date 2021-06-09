@@ -1,4 +1,4 @@
-# Basics of .net
+# Basics of .NET
 
 Check out the below image to understand how the code execution differed in pre-.net era and post .net era
 
@@ -105,7 +105,19 @@ A location which ets us store **_strongly named assemblies_** ( including multip
 
    > To delete a specific version of an assenmbly from the GAC, you must give the command as: `gacutil.exe -u assembly-name,Version=version-number-no-quotes,PublicKeyToken=public-key-token-no-quotes`. No spaces!!!
 
-#### Global Assembly Cache(GAC) locations
+#### Global Assembly Cache (GAC) locations
 
 - Pre .NET 4 location: `C:\Windows\assembly`
 - Post .NET 4 location: `C:\Windows\Microsoft.NET\assembly`
+
+## How .NET finds the assemblies during program execution
+
+1. **.Net figures out what version is needed:** Usually the information about the dependant assemblies is present in the application's assembly manifests. CLR checks the application configuration file, publisher policy file(if exists), and machine config file for information that overrides the version information stored in the calling assemblies manisfest.
+
+2. **.Net searches GAC:** .Net searches GAC only if the assembly is strongly named.
+
+3. **if the assembly is not found in the GAC**, and if there is a .config file, then .Net searches the location in the configuration file, else .Net searches the directory containing the executable (.exe)
+
+4. **If the assembly is not found**, the application terminates with error.
+
+**Note:** **_ Version checking is not done for Weakly Named Assemblies_**
