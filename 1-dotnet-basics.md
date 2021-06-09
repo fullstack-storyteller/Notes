@@ -54,3 +54,24 @@ We use ILASM.exe (Intermediate language Assembler) tp reconstruct an assembly fr
 1. Open the visual studio command prompt as Administrator
 2. run the command `ilasm.exe fully-qualified-name-of-the-.il file`
 3. It will read the content of the .il file and reconstruct the assembly
+
+## Strong naming an assembly
+
+In .Net, assemblies can be broadly classified into 2 types
+
+1. Weak named assemblies
+2. Strong named assemblies
+
+An assembliy name consists of 4 parts
+
+1. Simple textual name
+2. Version Number
+3. Culture information (otherwise the assembly is language neutral)
+4. Public key token
+
+We use Assemblyversion attribute to specifiy the Assembly version. The default is 1.0.0.0. The version number f an assembly consists of the following parts:
+
+1. Major Version
+2. Minor Version
+3. Build Number
+4. Revision Number
