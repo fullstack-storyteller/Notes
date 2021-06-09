@@ -103,7 +103,7 @@ A location which ets us store **_strongly named assemblies_** ( including multip
 
    > Remember this, to delete all versions of an assembly from the GAC, simply specifiy the Assembly Name
 
-   > To delete a specific version of an assenmbly from the GAC, you must give the command as: `gacutil.exe -u assembly-name,Version=version-number-no-quotes,PublicKeyToken=public-key-token-no-quotes`
+   > To delete a specific version of an assenmbly from the GAC, you must give the command as: `gacutil.exe -u assembly-name,Version=version-number-no-quotes,PublicKeyToken=public-key-token-no-quotes`. No spaces!!!
 
 #### Global Assembly Cache(GAC) locations
 
