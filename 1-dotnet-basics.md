@@ -80,7 +80,7 @@ We use Assemblyversion attribute to specifiy the Assembly version. The default i
 
 We can strongly name an assembly to deploy them in GAC. For ensuring multiple version of assemblies to exist together. _Remember that only a strongly named assembly can be placed in GAC_. This primarily helps in solving the DLL-Hell Problem (we will see more on that later)
 
-### How to generate public and private key to strong name an Assembly and sign the assembly
+### How to generate public and private key to strong name an Assembly and sign the assembly with a public token
 
 1. Open the visual studio command prompt as Administrator
 2. run the code `sn.exe -k c:/mynewstrongnamekeyfile.snk`
@@ -89,4 +89,4 @@ We can strongly name an assembly to deploy them in GAC. For ensuring multiple ve
 ### Global Assembly Cache(GAC) locations
 
 - Pre .NET 4 location: `C:\Windows\assembly`
-- Post .NET 4 location: ``
+- Post .NET 4 location: `C:\Windows\Microsoft.NET\assembly`
