@@ -80,13 +80,32 @@ We use Assemblyversion attribute to specifiy the Assembly version. The default i
 
 We can strongly name an assembly to deploy them in GAC. For ensuring multiple version of assemblies to exist together. _Remember that only a strongly named assembly can be placed in GAC_. This primarily helps in solving the DLL-Hell Problem (we will see more on that later)
 
-### How to generate public and private key to strong name an Assembly and sign the assembly with a public token
+### How to make a strong named Assembly
 
 1. Open the visual studio command prompt as Administrator
 2. run the code `sn.exe -k c:/mynewstrongnamekeyfile.snk`
 3. it will generate a `mynewstrongnamekeyfile.snk` file to be used in our AssemblyInfo.cs file as `[assembly: AssemblyKeyFile("C:\\mynewstrongnamekeyfile.snk")]`
+4. Rebuild the application, and the newly generated assembly will be an strongly named assembly
 
-### Global Assembly Cache(GAC) locations
+### Global Assembly Cache (GAC)
+
+A location which ets us store **_strongly named assemblies_** ( including multiple versions of the same assemblies) for their use in multiple applications. This assembly will not be moved or copies locally for individual applications as every applicationi can reference them from the GAC location.
+
+#### How to install an assembly in GAC
+
+1. Make the assembly a strong named assembly
+2. Open Visual Studion Command Prompt as administrator
+3. Reach the location of the assembly directory
+4. For installing an assembly into GAC run the command: `gacutil.exe -i assembly-name.extension`
+   > Note different target .Net Framework will have different GAC location
+   > See below...
+5. For uninstalling an assembly use: `gacutil.exe -u assembly-name`
+
+   > Remember this, to delete all versions of an assembly from the GAC, simply specifiy the Assembly Name
+
+   > To delete a specific version of an assenmbly from the GAC, you must give the command as: `gacutil.exe -u assembly-name,Version=version-number,PublicKeyToken=public-key-token`
+
+#### Global Assembly Cache(GAC) locations
 
 - Pre .NET 4 location: `C:\Windows\assembly`
 - Post .NET 4 location: `C:\Windows\Microsoft.NET\assembly`
