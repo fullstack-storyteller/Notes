@@ -121,3 +121,13 @@ A location which ets us store **_strongly named assemblies_** ( including multip
 4. **If the assembly is not found**, the application terminates with error.
 
 Note: **_Version checking is not done for Weakly Named Assemblies_**
+
+## DLL HELL problem
+
+### Problem definition
+
+This is a problem which happens when two different applications are trying to access multiple different versions of an assembly
+
+### Solution
+
+We should strongly name the assembly and install them in GAC. This way different versions of the same assembly can co-exist in the same location i.e. the GAC. Hence both applciation will work.
