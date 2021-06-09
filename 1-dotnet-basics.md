@@ -30,3 +30,8 @@ JIT Compiler takes the MSIL and converts it into corresponding machine code.
 It provides a lot of things(to be added here later)
 
 1. Garbage Collection: .Net Assemblies don't have to handle freeing up memories or cleanup of unreferenced object as CLR's garbage collecter does it for them.
+
+## Assemblies
+
+Any .net Application -> Compile -> Assembly (.exe or .dll)
+Assembly contains - **Manifest and IL**
