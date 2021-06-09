@@ -38,6 +38,13 @@ Assembly contains - **_Manifest and IL_**
 
 Some information in the assembly manifest can be mdified using attributes.
 
-We use ILDASM.exe (Intermediate language Dissassembler) to peek at the assembly manifest and IL. You can laso use this tool to export manisfest an IL to a text file.
+We use ILDASM.exe (Intermediate language Dissassembler) to peek at the assembly manifest and IL. You can laso use this tool to export manisfest (meta data about your assembly for example name of the assembly and its version and various other details about dependencies and their versions) an IL to a text file.
 
 We use ILASM.exe (Intermediate language Assembler) tp reconstruct an assembly from a text file that contains manifest and IL.
+
+### using ILDASM and ILASM tools
+
+1. Open the visual studio command prompt as Administrator
+2. run the command `ildasm.exe fully-qualified-name-of-the-assemble-(.dll or .exe)`
+3. It will open the ILDASM dialog box with maifest and IL information
+4. You can use File -> Dump -> select the location to save -> save
