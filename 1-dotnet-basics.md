@@ -4,7 +4,7 @@ Check out the below image to understand how the code execution differed in pre-.
 
 ![comparison between pre-post .net code execution](/images/prepostdotnet.jpg)
 
-### Main difference between a .net assembly and pre.net assembly (.dll or .exe)
+## Main difference between a .net assembly and pre.net assembly (.dll or .exe)
 
 | Pre .Net Assembly                            | .Net Assembly                                                                                                                            |
 | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,16 +16,16 @@ Check out the below image to understand how the code execution differed in pre-.
 | Example: VB6, C++                            | Example: C#, VB, J# and also C++ (for backwards compatibility)                                                                           |
 | It is fast from get go                       | First time it will be slow as IL has to be made but further execution of the IL will be fast                                             |
 
-#### Intermeditate language (More to be added)
+## Intermeditate language (More to be added)
 
 1. It is also called Managed code as it is managed by the CLR, where as Native code in pre .net era was called unmanaged code
 2. Intermediate Language is also known as Microsoft Intermediated language(MSIL) or Common Intermediate Language(CIL)
 
-#### Just-In-Time Compiler (More to be added)
+## Just-In-Time Compiler (More to be added)
 
 JIT Compiler takes the MSIL and converts it into corresponding machine code.
 
-#### Common Language Runtime (More to be added)
+## Common Language Runtime (More to be added)
 
 It provides a lot of things(to be added here later)
 
