@@ -66,7 +66,7 @@ An assembliy name consists of 4 parts
 
 1. Simple textual name
 2. Version Number
-3. Culture information (otherwise the assembly is language neutral, also when you specify the culture attribute it becomes a _*satelite*_ assemebly. Its usually empty)
+3. Culture information (otherwise the assembly is language neutral, also when you specify the culture attribute it becomes a _*satelite assemebly*_. Its usually empty)
 4. Public key token
 
 We use Assemblyversion attribute to specifiy the Assembly version. The default is `1.0.0.0`. The version number f an assembly consists of the following parts:
@@ -75,6 +75,16 @@ We use Assemblyversion attribute to specifiy the Assembly version. The default i
 2. Minor Version
 3. Build Number
 4. Revision Number
+
+### Strong Naming an Assembly
+
+We can strongly name an assembly to deploy them in GAC. For ensuring multiple version of assemblies to exist together. _Remember that only a strongly named assembly can be placed in GAC_. This primarily helps in solving the DLL-Hell Problem (we will see more on that later)
+
+### How to generate public and private key to strong name an Assembly and sign the assembly
+
+1. Open the visual studio command prompt as Administrator
+2. run the code `sn.exe -k c:/mynewstrongnamekeyfile.snk`
+3. it will generate a `mynewstrongnamekeyfile.snk` file to be used in our AssemblyInfo.cs file as `[assembly: AssemblyKeyFile("C:\\mynewstrongnamekeyfile.snk")]`
 
 ### Global Assembly Cache(GAC) locations
 
