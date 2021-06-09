@@ -69,14 +69,14 @@ An assembliy name consists of 4 parts
 3. Culture information (otherwise the assembly is language neutral, also when you specify the culture attribute it becomes a _*satelite*_ assemebly. Its usually empty)
 4. Public key token
 
-We use Assemblyversion attribute to specifiy the Assembly version. The default is 1.0.0.0. The version number f an assembly consists of the following parts:
+We use Assemblyversion attribute to specifiy the Assembly version. The default is `1.0.0.0`. The version number f an assembly consists of the following parts:
 
 1. Major Version
 2. Minor Version
 3. Build Number
 4. Revision Number
 
-### Global Assembly Cache(GAC) locations:
+### Global Assembly Cache(GAC) locations
 
 - Pre .NET 4 location: `C:\Windows\assembly`
 - Post .NET 4 location: ``
