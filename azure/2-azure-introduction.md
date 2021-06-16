@@ -4,7 +4,7 @@ Azure provides a free account and as of June 16, 2021, it provide 25 free servic
 
 ## Azure is available at
 
-https://portal.azure.com/
+[Azure Portal](https://portal.azure.com/)
 
 Make sure to at least create a free account using github or microsoft accounnt for working with Azure
 
