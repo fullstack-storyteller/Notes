@@ -23,4 +23,4 @@ Note: When we deploy a VM, there are a few things which get deployed with it.
 - The VM itself
 - The disks for Holding OS Data as well as we can add a disk for holding the user Data
 - The Network Interface card \[contains public and private IP addresses\]
-- And Most importantly, Network Security group(NSG)
+- And Most importantly, Network Security group(NSG). It acts like a firewall
