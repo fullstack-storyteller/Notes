@@ -6,7 +6,7 @@ In public cloud like Azure, the business doesn't have to worry about the physica
 
 ### The Virtual Machine Service is known as Infrastructure as a Service (IaaS)
 
-## Benefits of Azure Virtual machine Service
+## Benefits of Azure Virtual Machine Service
 
 - No need to worry about managing the underlying hardware
 - No need to buy the physical server hence, less upfront investment
@@ -14,3 +14,12 @@ In public cloud like Azure, the business doesn't have to worry about the physica
 - Terminate the virtual server at any time.
 - You can host different type of workloads
 - You can deploy both windows and Linus based servers
+
+## Deploying a VM
+
+Note: When we deploy a VM, there are a few things which get deployed with it.
+
+- The VM itself
+- The disks for Holding OS Data as well as the user Data
+- The Network Interface card \[contains public and private IP addresses\]
+- And Most importantly, Network Security group(NSG)
