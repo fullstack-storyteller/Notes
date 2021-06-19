@@ -19,7 +19,8 @@ In public cloud like Azure, the business doesn't have to worry about the physica
 
 Note: When we deploy a VM, there are a few things which get deployed with it.
 
+- The virtual Network, i.e. the VM needs to reside inside a virtual network
 - The VM itself
-- The disks for Holding OS Data as well as the user Data
+- The disks for Holding OS Data as well as we can add a disk for holding the user Data
 - The Network Interface card \[contains public and private IP addresses\]
 - And Most importantly, Network Security group(NSG)
