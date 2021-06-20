@@ -46,3 +46,9 @@ Note: To create any account you will need a subscriptiona and a resource group.
 Finally are reviewing and creating the VM, you will also receive the estimated cost of the VM and once the VM is created successfully, you can go ahead to "All Resources" to see what resources got created for one VM. Please refer below:
 
 ![Resources after VM creation](./images/resources-after-vm-creation.jpg)
+
+Note: _*You can pig the public IP of the newly created VM yet, as only RDP is allowed on port 3389*_
+
+So, go ahead and download the RDP file and launch it to connect to your first VM using the password you created.
+
+Note: _*While connecting to Azure VM from you local you can use \[public IP of the VM\]\\username and password in case directly providing username and password is not working. *_
