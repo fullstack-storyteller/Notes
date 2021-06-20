@@ -53,7 +53,7 @@ So, go ahead and download the RDP file and launch it to connect to your first VM
 
 Note: _*While connecting to Azure VM from you local you can use \[public IP of the VM\]\\username and password in case directly providing username and password is not working. *_
 
-## Make you newly created VM into a Web server to host applications
+## Make your newly created VM into a Web server to host applications
 
 - Connect to VM using an RDP connection
 - Open Server Manager
@@ -65,3 +65,13 @@ Note: _*While connecting to Azure VM from you local you can use \[public IP of t
 - Now you can access the localhost from inside and outside the server
 
 Note: _*To access localhost from outside the server(your VM ofcourse), you can use the public IP address of your VM. But we know that IIS uses to port 80, so in your NSG you must add the rule to allow incoming traffic at port 80*_
+
+## Types of VMs
+
+Each VM type belongs to a particular VM Family. Each Series gives us different features and capapbilities.
+
+Examples:
+
+- A-series for simple entry level economical VMs
+- F-series for compute optimized, for workloads like batch processing or analytics or gaming
+- G-Series for memory and storage optimized, for workloads like large SQL and NoSQL databases, ERP and SAP or Data warehousing
