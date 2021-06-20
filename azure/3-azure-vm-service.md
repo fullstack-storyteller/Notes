@@ -78,8 +78,14 @@ Examples:
 
 ### More at Azure VM [Series](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/)
 
-### Pricing calculator for Azure can be found below
+## Pricing calculator for Azure can be found below
 
 Pricing [Calculator](https://azure.microsoft.com/en-in/pricing/calculator/)
 
 Remember, the compute and disk usage charges will be separate but included in the calculator. Even if you decommission the compute resources, you may incur a fraction of charges on disk resources.
+
+## State of VMs
+
+- We can shutdown a VM from the azure portal and the from inside the VM itself, only difference is, if you shut the VM down from the portal, there may be chances that upon shutdown the VM will move to a different physical host(it may restart from same physical host or a different host - it's not in our control), thus we have see that the public IP of the VM is changed once it is started again.
+- If you have a web application that needs to have an IP that does not change consider using a static IP
+- If you want to store application data on a separate volume apart from the OS level disk, consider attaching data disks.
