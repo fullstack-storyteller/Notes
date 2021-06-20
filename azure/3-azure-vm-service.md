@@ -24,3 +24,11 @@ Note: When we deploy a VM, there are a few things which get deployed with it.
 - The disks for Holding OS Data as well as we can add a disk for holding the user Data
 - The Network Interface card \[contains public and private IP addresses\]
 - And Most importantly, Network Security group(NSG). It acts like a firewall
+
+Note: To create any account you will need a subscriptiona and a resource group.
+
+## Tings to note while creating a Azure VM resource
+
+- Size: we can select from a variety of size (read computing power) of VMs. the estimated computing cost on a per month basis will be shown while creating a VM
+- You will be prompted to enter a username and password, remember it for future usage. Your's is username is `manish` and `UZy@996sJR`
+- By default, if you create a VMs the incoming traffic will be blocked (you will need to add a rule to NSG to allow traffic), but if you are creating a Windows OS virtual machine, you will see a rule will get setup for you by default to allow trafic on port 3389 via RDP.
