@@ -27,11 +27,12 @@ Note: When we deploy a VM, there are a few things which get deployed with it.
 
 Note: To create any account you will need a subscriptiona and a resource group.
 
-## Things to note while creating a Azure VM resource
+## Things to note while creating a Azure VM resource (Windows/Linux)
 
 - Size: we can select from a variety of size (read computing power) of VMs. the estimated computing cost on a per month basis will be shown while creating a VM
 - You will be prompted to enter a username and password, remember it for future usage. Your's is username is `manish` and `UZy@996sJR//1`
-- By default, if you create a VMs the incoming traffic will be blocked (you will need to add a rule to NSG to allow incoming traffic), but if you are creating a Windows OS virtual machine, you will see a rule will get setup for you by default to allow trafic on port 3389 via RDP.
+- By default, if you create a VMs the incoming traffic will be blocked (you will need to add a rule to NSG to allow incoming traffic), but if you are creating a Windows OS virtual machine, you will see a rule will get setup for you by default to allow trafic on port 3389 via RDP. If it's Linux, it will open port 22 for Secure Shell (SSH).
+- For connecting to Windows VM we can use Remote Desktop Connection on port 3389, and for connecting to Linux Vms we can use the Secure Shell (SSH) on port 22.
 - By default, you will receive an OS disk in your VM, and you may choose to add additional disk for your data
 - By Default, you will see that a Virtual network is also created along with VM. You can even use your existing virtual networks. The new VM and VNet should be in the same region.
 
@@ -53,7 +54,7 @@ So, go ahead and download the RDP file and launch it to connect to your first VM
 
 Note: _*While connecting to Azure VM from you local you can use \[public IP of the VM\]\\username and password in case directly providing username and password is not working. *_
 
-## Make your newly created VM into a Web server to host applications
+## Make your newly created VM (Windows) into a Web server to host applications
 
 - Connect to VM using an RDP connection
 - Open Server Manager
@@ -89,3 +90,12 @@ Remember, the compute and disk usage charges will be separate but included in th
 - We can shutdown a VM from the azure portal and the from inside the VM itself, only difference is, if you shut the VM down from the portal, there may be chances that upon shutdown the VM will move to a different physical host or gets deallocated from the underlying physical host/server (it may restart from same physical host or a different host - it's not in our control), thus we have see that the **public IP of the VM is changed once it is started again**. The IP will change when shutdown happens from the insdie the VM.
 - If you have a web application that needs to have an IP that does not change consider using a `static IP`. For seeting the public IP as static, just go to the `Public IP address` resource and change it from `dynamic` to `static`. It may reboot your VM.
 - If you want to store application data on a separate volume apart from the OS level disk, consider attaching data disks. in case of a shutdown of VM you will loose the data on the temporary drive, i.e. the D Drive of the VM. so please make sure to attach you own Disk drive(s).
+
+### Linux VMs: steps to start a webserver in Linux VM
+
+- Connect to Linux VM through SSH (open putty, give the Linux VM's public ip and connecting using SSH.)
+- provide your username and password, which you setup while creation.
+- Once SSH is connected properly, run `sudo apt-get update` in Command Line Interface.
+- to install nginx, you can now use this command in SSH console to install nginx: `sudo apt-get install nginx`
+- remember, we need to /add the incoming traffic on Port 80 for nignx to be accessed from the internet
+- Finally spin up the Linux Vm and search the VM's Public IP in the browser to see the nginx startup page.
