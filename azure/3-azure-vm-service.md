@@ -52,3 +52,16 @@ Note: _*You can pig the public IP of the newly created VM yet, as only RDP is al
 So, go ahead and download the RDP file and launch it to connect to your first VM using the password you created.
 
 Note: _*While connecting to Azure VM from you local you can use \[public IP of the VM\]\\username and password in case directly providing username and password is not working. *_
+
+## Make you newly created VM into a Web server to host applications
+
+- Connect to VM using an RDP connection
+- Open Server Manager
+- Click on "Add roles and features"
+- Next - Role based or feature based installation
+- Select your server from your server pool - Next
+- Select the Web Server (IIS) feature - Add feature - Next
+- Click on all the nexts the finally click on "Install"
+- Now you can access the localhost from inside and outside the server
+
+Note: _*To access localhost from outside the server(your VM ofcourse), you can use the public IP address of your VM. But we know that IIS uses to port 80, so in your NSG you must add the rule to allow incoming traffic at port 80*_
