@@ -86,6 +86,6 @@ Remember, the compute and disk usage charges will be separate but included in th
 
 ## State of VMs
 
-- We can shutdown a VM from the azure portal and the from inside the VM itself, only difference is, if you shut the VM down from the portal, there may be chances that upon shutdown the VM will move to a different physical host or gets deallocated from the underlying physical host/server (it may restart from same physical host or a different host - it's not in our control), thus we have see that the **public IP of the VM is changed once it is started again**.
+- We can shutdown a VM from the azure portal and the from inside the VM itself, only difference is, if you shut the VM down from the portal, there may be chances that upon shutdown the VM will move to a different physical host or gets deallocated from the underlying physical host/server (it may restart from same physical host or a different host - it's not in our control), thus we have see that the **public IP of the VM is changed once it is started again**. The IP will change when shutdown happens from the insdie the VM.
 - If you have a web application that needs to have an IP that does not change consider using a `static IP`. For seeting the public IP as static, just go to the `Public IP address` resource and change it from `dynamic` to `static`. It may reboot your VM.
 - If you want to store application data on a separate volume apart from the OS level disk, consider attaching data disks.
