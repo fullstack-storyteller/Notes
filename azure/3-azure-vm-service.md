@@ -75,3 +75,5 @@ Examples:
 - A-series for simple entry level economical VMs
 - F-series for compute optimized, for workloads like batch processing or analytics or gaming
 - G-Series for memory and storage optimized, for workloads like large SQL and NoSQL databases, ERP and SAP or Data warehousing
+
+More at Azure VM [Series](https://azure.microsoft.com/en-in/pricing/details/virtual-machines/)
