@@ -27,8 +27,22 @@ Note: When we deploy a VM, there are a few things which get deployed with it.
 
 Note: To create any account you will need a subscriptiona and a resource group.
 
-## Tings to note while creating a Azure VM resource
+## Things to note while creating a Azure VM resource
 
 - Size: we can select from a variety of size (read computing power) of VMs. the estimated computing cost on a per month basis will be shown while creating a VM
-- You will be prompted to enter a username and password, remember it for future usage. Your's is username is `manish` and `UZy@996sJR`
-- By default, if you create a VMs the incoming traffic will be blocked (you will need to add a rule to NSG to allow traffic), but if you are creating a Windows OS virtual machine, you will see a rule will get setup for you by default to allow trafic on port 3389 via RDP.
+- You will be prompted to enter a username and password, remember it for future usage. Your's is username is `manish` and `UZy@996sJR//1`
+- By default, if you create a VMs the incoming traffic will be blocked (you will need to add a rule to NSG to allow incoming traffic), but if you are creating a Windows OS virtual machine, you will see a rule will get setup for you by default to allow trafic on port 3389 via RDP.
+- By default, you will receive an OS disk in your VM, and you may choose to add additional disk for your data
+- By Default, you will see that a Virtual network is also created along with VM. You can even use your existing virtual networks. The new VM and VNet should be in the same region.
+
+  > **Subnet** is a logical separation of the address space of a Virtual Network
+
+  > **Public IP Address** allows this virtual machine to be reachable from the internet
+
+- In Management section of configuring an VM, you will have an option to enable boot diagnostics. All information will be stored in Azure storage account
+- You can also enable auto shut down to bring down your operational costs
+- NOTE: You can also download the template of the VM to do some sort of automation
+
+Finally are reviewing and creating the VM, you will also receive the estimated cost of the VM and once the VM is created successfully, you can go ahead to "All Resources" to see what resources got created for one VM. Please refer below:
+
+![Resources after VM creation](./images/resources-after-vm-creation.jpg)
