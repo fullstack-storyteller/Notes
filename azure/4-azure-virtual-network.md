@@ -35,3 +35,5 @@ NSG can be linked to network interface card of your resource/VM or it can be lin
 2. Port (http:80, https:443, RDP:3389, SSH:22)
 3. Protocol: TCP/UDP
 4. Source and Destination IP addresses( of VM or Vnet)
+
+![NSG rules](./images/4.png)
