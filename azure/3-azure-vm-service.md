@@ -126,3 +126,9 @@ Azure also offers Proximity palcement group to allows us to keep our VMs closer 
 
 Lets create two VMs in the same availabilty set, and see how it looks in the Azure:
 ![two vms in availability set](./images/3.png)
+
+## Availability Zones
+
+Availability Zones are unique physical locations that are equipped with independent power, cooling and networking. There are normally **three** Availability Zones in a region
+
+** 1 Region -> (Max) 3 Avalability Zones(AZ) -> Each AZ has one or more data center **
