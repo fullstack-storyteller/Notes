@@ -31,10 +31,29 @@ NSG can be linked to network interface card of your resource/VM or it can be lin
 
 ### Defining a rule in NSG requries the below
 
-1. Priority \[ what should be evaluated first \]
+1. Priority \[ lower the priority number assigned, the rule will be applied first \]
 2. Port (http:80, https:443, RDP:3389, SSH:22)
 3. Protocol: TCP/UDP
 4. Source and Destination IP addresses( of VM or Vnet)
 
 **Note:** _*Please note the below three rules which are noted in the below snippet*_
 ![NSG rules](./images/4.png)
+
+## Application Security Groups
+
+You can assign Application Security groups in the Azure to handle the resquest coming to specific ports and based on the type of role the VM is playing.
+If we have a bunch of VMs for Webserver, create an ASG for webserver, and for database server, create another ASG. Now in application security groups assign those VMs respectively. Finally in network security group, assign these ASGs with relevant port number on which traffic needs to be handled.
+
+## Network connectivity options
+
+### Virtual Network peering
+
+In Azure, the VNets are isolated.
+You can create Virtual network Peering to connect two isoloated VNets and enable communication in between the resources.
+
+### Point-to-Site VPN Connection
+
+This type of connections happens over the internet. When you have a set of client work stations that need to connect to an Azure VNet over the internet. Instead of using public IP address to access the VNet resources/VMs the client workstations use the private IP addresses fo the VNet resources. This requires a Virtual Private Network (VPN) connection between your VNet and the client workstations.
+To achieve this, we need to implement VPN gateway resource, and in this resource we need to configure Point-to-Site (P2S) VPN Connection. This scenario makes use of certificates for authentication.
+
+### Site-to-Site VPN Connection
