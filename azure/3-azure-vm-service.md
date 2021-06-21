@@ -110,7 +110,7 @@ Note: **Some of the custome images may have additional costs associated with the
 
 No infrastructure in 100% available at all times, so we should have room for mishaps. Azure provide Availability Sets to handle this problem.
 
-**If you have two or more instances deployed in the same Availability Set, you will get a SLA of 99.95% for Virtual Machine COnnecitivity to at least one instance. It is the user responsibility to assign the VMs in an Availibility Set. **
+**If you have two or more instances deployed in the same Availability Set, you will get a SLA of 99.95% for Virtual Machine COnnecitivity to at least one instance. It is the user responsibility to assign the VMs in an Availibility Set.**
 
 Availibility Sets will ensure that the instances of VMs are assigned properly in:
 
