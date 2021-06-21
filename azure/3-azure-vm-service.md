@@ -118,3 +118,6 @@ Availibility Sets will ensure that the instances of VMs are assigned properly in
   > Any power outage or unforseen event leading to shutdown of the underlying physical infrastructure can be handled by handled if VMs are distributed accross multiple fault domains. Azure's Availibilty Sets handled this fine.
 - Update Domain
   > Any necessary patches or updates that require the underlying physical infrastructure to be restarted or upgraded, will not impact the associated VMs, if the VM instances are distributed accross multiple Update Domains. Again Azure handles it fine.
+
+Azure has the below Fault Domains and Update Domains:
+![Fault and Upadte Domains](./images/1.png)
