@@ -105,3 +105,16 @@ Remember, the compute and disk usage charges will be separate but included in th
 Azure [Marketplace](https://azure.microsoft.com/en-in/marketplace/) is a place where you can find all sorts of products compatible with Azure. You can spin up custome VM from images available in the marketpalce, for example you can have a VM for Wordpress or you may also have a Windows 10 client machine.
 
 Note: **Some of the custome images may have additional costs associated with them.** That means, you may be charged for the software solution plus the VM service.
+
+## Azure Availability Sets
+
+No infrastructure in 100% available at all times, so we should have room for mishaps. Azure provide Availability Sets to handle this problem.
+
+**If you have two or more instances deployed in the same Availability Set, you will get a SLA of 99.95% for Virtual Machine COnnecitivity to at least one instance. It is the user responsibility to assign the VMs in an Availibility Set. **
+
+Availibility Sets will ensure that the instances of VMs are assigned properly in:
+
+- Fault Domain
+  > Any power outage or unforseen event leading to shutdown of the underlying physical infrastructure can be handled by handled if VMs are distributed accross multiple fault domains. Azure's Availibilty Sets handled this fine.
+- Update Domain
+  > Any necessary patches or updates that require the underlying physical infrastructure to be restarted or upgraded, will not impact the associated VMs, if the VM instances are distributed accross multiple Update Domains. Again Azure handles it fine.
