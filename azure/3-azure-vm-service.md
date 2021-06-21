@@ -91,7 +91,7 @@ Remember, the compute and disk usage charges will be separate but included in th
 - If you have a web application that needs to have an IP that does not change consider using a `static IP`. For seeting the public IP as static, just go to the `Public IP address` resource and change it from `dynamic` to `static`. It may reboot your VM.
 - If you want to store application data on a separate volume apart from the OS level disk, consider attaching data disks. in case of a shutdown of VM you will loose the data on the temporary drive, i.e. the D Drive of the VM. so please make sure to attach you own Disk drive(s).
 
-### Linux VMs: steps to start a webserver in Linux VM
+## Linux VMs: steps to start a webserver in Linux VM
 
 - Connect to Linux VM through SSH (open putty, give the Linux VM's public ip and connecting using SSH.)
 - provide your username and password, which you setup while creation.
@@ -99,3 +99,9 @@ Remember, the compute and disk usage charges will be separate but included in th
 - to install nginx, you can now use this command in SSH console to install nginx: `sudo apt-get install nginx`
 - remember, we need to /add the incoming traffic on Port 80 for nignx to be accessed from the internet
 - Finally spin up the Linux Vm and search the VM's Public IP in the browser to see the nginx startup page.
+
+## Azure Marketplace
+
+Azure [Marketplace](https://azure.microsoft.com/en-in/marketplace/) is a place where you can find all sorts of products compatible with Azure. You can spin up custome VM from images available in the marketpalce, for example you can have a VM for Wordpress or you may also have a Windows 10 client machine.
+
+Note: **Some of the custome images may have additional costs associated with them.** That means, you may be charged for the software solution plus the VM service.
