@@ -36,4 +36,5 @@ NSG can be linked to network interface card of your resource/VM or it can be lin
 3. Protocol: TCP/UDP
 4. Source and Destination IP addresses( of VM or Vnet)
 
+**Note:** _*Please note the below three rules which are noted in the below snippet*_
 ![NSG rules](./images/4.png)
