@@ -140,3 +140,12 @@ See, AZ is a collection of one or more data centers, but AS is like a collection
 If you have two or more VMs instancesdeployed in two or more Availibility Zones, you will get an SLA if 99.99% for VM connectivit to at least one instance.
 
 We may get better SLA when using Availbility Zones than using Availibity Sets, but we will incur cost on bandwidth communication between VMs,whic is not there in Availibility sets.
+
+Azure will automatically assign update and fault domain when using Availability Sets but when using Availbilty Zones we have to spinup VMs ourselves by specifically selecting the Availbility Zone number.
+
+## Azure Dedicated Host
+
+VMs we create in Azure are created on a physical Host/server in a dataceter, but we have the capability of assigning the entire an physical host in Azure Datacenter.
+
+- This physical host will not be used by any other customer of Azure.
+- Maintenance events schedule will be controlled by the Customer/owner, we can't control that on a shared physical host.
