@@ -8,8 +8,8 @@ Azure Virtual Network consists of IP address range. It can be default what's sup
 In a VNet,You can spinup subnet, which is a logical separation of resources within the VNet. Each subnet have an address range which will be the subset of the address range of the VNet. You can spinup VMs in these subnets.
 Example:
 
-- IP address: 10.1.0.0/16
-- Subnets: 10.1.1.0/24 and 10.1.2.0/24
+- IP address: 10.0.0.0/16, address space \[ 10.0.0.0 - 10.0.255.255 (65536 addresses)\]
+- Subnets: (default subnet)10.0.0.0/24, address space \[ 10.0.0.0 - 10.0.0.255 (251 +5 azure reserved addresses)\] and 10.1.2.0/24
 
 **Private IP address** is the IP address from the address range of the subnets which the VMs or resources can used within the VNet to communicate with each other. This is not accessible outside the VNet.
 
