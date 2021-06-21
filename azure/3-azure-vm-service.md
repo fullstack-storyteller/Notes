@@ -152,7 +152,7 @@ VMs we create in Azure are created on a physical Host/server in a dataceter, but
 - This physical host will not be used by any other customer of Azure.
 - Maintenance events schedule will be controlled by the Customer/owner, we can't control that on a shared physical host.
 
-### Deleting a Resource group will delete all the resources associated with the resource group.
+### Deleting a Resource group will delete all the resources associated with the resource group
 
 ## What is a Workload
 
