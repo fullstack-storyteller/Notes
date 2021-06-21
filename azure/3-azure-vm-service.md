@@ -138,3 +138,5 @@ Availability Zones are unique physical locations that are equipped with independ
 See, AZ is a collection of one or more data centers, but AS is like a collection on different physical servers or say racks. Hundred of racks / servers and multiple networking areas, power areas make up an datacenter.
 
 If you have two or more VMs instancesdeployed in two or more Availibility Zones, you will get an SLA if 99.99% for VM connectivit to at least one instance.
+
+We may get better SLA when using Availbility Zones than using Availibity Sets, but we will incur cost on bandwidth communication between VMs,whic is not there in Availibility sets.
