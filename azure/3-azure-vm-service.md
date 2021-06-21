@@ -166,4 +166,5 @@ Example(s):
 
 ## Important note
 
-If a VM is stopped, Azure will not count the Compute cost, but you will still be charged for Disks associated with the VM
+- If a VM is stopped, Azure will not count the Compute cost, but you will still be charged for Disks associated with the VM.
+- The cost incurred for the virtual machines depends on the region they are located in.
