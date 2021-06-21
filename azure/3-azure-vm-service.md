@@ -111,8 +111,7 @@ Note: **Some of the custome images may have additional costs associated with the
 No infrastructure in 100% available at all times, so we should have room for mishaps. Azure provide Availability Sets to handle this problem.
 
 **If you have two or more instances deployed in the same Availability Set, you will get a SLA of 99.95% for Virtual Machine COnnecitivity to at least one instance. It is the user responsibility to assign the VMs in an Availibility Set.**
-
-Availibility Sets will ensure that the instances of VMs are assigned properly in:
+Availibility Set is just another resource that Azure provides. Availibility Sets will ensure that the instances of VMs are assigned properly in:
 
 - Fault Domain
   > Any power outage or unforseen event leading to shutdown of the underlying physical infrastructure can be handled by handled if VMs are distributed accross multiple fault domains. Azure's Availibilty Sets handled this fine.
@@ -124,3 +123,6 @@ Azure has the below Fault Domains and Update Domains:
 
 Azure also offers Proximity palcement group to allows us to keep our VMs closer together in the same availibilty set.
 ![proximity placement](./images/2.png)
+
+Lets create two VMs in the same availabilty set, and see how it looks in the Azure:
+![two vms in availability set](./images/3.png)
