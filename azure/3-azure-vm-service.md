@@ -132,3 +132,9 @@ Lets create two VMs in the same availabilty set, and see how it looks in the Azu
 Availability Zones are unique physical locations that are equipped with independent power, cooling and networking. There are normally **three** Availability Zones in a region
 
 **1 Region -> (Max) 3 Avalability Zones(AZ) -> Each Availability Zone has one or more data center**
+
+### Availability Zone (AZ) vs Avalibility Sets (AS)
+
+See, AZ is a collection of one or more data centers, but AS is like a collection on different physical servers or say racks. Hundred of racks / servers and multiple networking areas, power areas make up an datacenter.
+
+If you have two or more VMs instancesdeployed in two or more Availibility Zones, you will get an SLA if 99.99% for VM connectivit to at least one instance.
