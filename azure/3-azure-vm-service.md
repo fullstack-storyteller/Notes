@@ -139,9 +139,11 @@ See, AZ is a collection of one or more data centers, but AS is like a collection
 
 If you have two or more VMs instancesdeployed in two or more Availibility Zones, you will get an SLA if 99.99% for VM connectivit to at least one instance.
 
-We may get better SLA when using Availbility Zones than using Availibity Sets, but we will incur cost on bandwidth communication between VMs,whic is not there in Availibility sets.
+We may get better SLA when using Availbility Zones than using Availibity Sets, but we will incur cost on bandwidth pricing between VMs,which is not there in Availibility sets. This is called inter-availability zone vm-to-vm data transfer charges.
 
 Azure will automatically assign update and fault domain when using Availability Sets but when using Availbilty Zones we have to spinup VMs ourselves by specifically selecting the Availbility Zone number.
+
+[Reference](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
 ## Azure Dedicated Host
 
@@ -149,3 +151,19 @@ VMs we create in Azure are created on a physical Host/server in a dataceter, but
 
 - This physical host will not be used by any other customer of Azure.
 - Maintenance events schedule will be controlled by the Customer/owner, we can't control that on a shared physical host.
+
+### Deleting a Resource group will delete all the resources associated with the resource group.
+
+## What is a Workload
+
+it is a unit of functionality - Application or service
+
+Example(s):
+
+- Web application
+- Database Server
+- VM
+
+## Important note
+
+If a VM is stopped, Azure will not count the Compute cost, but you will still be charged for Disks associated with the VM
