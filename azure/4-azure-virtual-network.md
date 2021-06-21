@@ -19,3 +19,5 @@ Example:
 **Note:** _*It should be noted that we should design our Application in such a way that only those resources are exposed to internet via a subnet which are actually needed to be exposed. If we have two VMs one for web server another for database, then it makes sense to have the Database VM inside a subnet which is different than the subnet where web server VM is located. And we can ensure that the database VM doesn't have a public IP. the Webserver VM can communicate with DB VM via the private IP address within the VNet.*_
 
 **Note:** _*Ensure that the VMs and other resources are created within the same azure region as the VNet to be able to access the VNet.*_
+
+**Note:** _*By default, communication between two virtual networks is not possible as VNet by default work in isolation. to connect these two networks we have a couple of options like virtual network peering.*_
