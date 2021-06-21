@@ -121,3 +121,6 @@ Availibility Sets will ensure that the instances of VMs are assigned properly in
 
 Azure has the below Fault Domains and Update Domains:
 ![Fault and Upadte Domains](./images/1.png)
+
+Azure also offers Proximity palcement group to allows us to keep our VMs closer together in the same availibilty set.
+![proximity placement](./images/2.png)
