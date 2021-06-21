@@ -21,3 +21,17 @@ Example:
 **Note:** _*Ensure that the VMs and other resources are created within the same azure region as the VNet to be able to access the VNet.*_
 
 **Note:** _*By default, communication between two virtual networks is not possible as VNet by default work in isolation. to connect these two networks we have a couple of options like virtual network peering.*_
+
+## Network Security Groups (NSG)
+
+The NSGs are used to control the flow of traffic into (inbound) and out (outbound) of the virtual machine.
+Its a separate resource in Azure and it gets attached to the network interface card that's attached to your VM.
+
+NSG can be linked to network interface card of your resource/VM or it can be linked to your entire subnet. If its linked to your subnet, then it affects all the VMs in the subnet.
+
+### Defining a rule in NSG requries the below
+
+1. Priority \[ what should be evaluated first \]
+2. Port (http:80, https:443, RDP:3389, SSH:22)
+3. Protocol: TCP/UDP
+4. Source and Destination IP addresses( of VM or Vnet)
