@@ -9,4 +9,6 @@
 
 3. **File Service:** These are highly available file shares in your Azure storage. you can use these file shares in multiple VMs and users. We connect to the file share using Server Message Block(SMB) protocol.
 
-4. **Queue Service:** It is used for receiving and sending messages. similar to MQ. or JMS
+4. **Queue Service:** It is used for receiving and sending messages. similar to MQ or JMS.
+
+## Things to note
