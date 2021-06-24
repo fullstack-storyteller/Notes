@@ -12,3 +12,9 @@
 4. **Queue Service:** It is used for receiving and sending messages. similar to MQ or JMS.
 
 ## Things to note
+
+- Azure Storage name should be unique
+- standnard perfomance option give: Blob service, Table Service, Queue Service and file shares. In Premium option, you get to work with Block Blobs, File share and Page Blobs
+- By default soft delete will be enabled to ensure the deleted objects/blobs are kept in backup for last 7 days.
+- Redundancy: to ensure high availability, various redundany options are provided by Azure
+  ![redundancy](./images/5.png)
