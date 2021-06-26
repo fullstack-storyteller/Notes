@@ -27,3 +27,5 @@ Container is a logical unit that is used for hosting your object.
 
 You edit, download and the file you stored in Blob, and you also get an URL for each specific object to access or download it. Example below
 [Our Uploaded file](https://manishstorage01.blob.core.windows.net/data/Manish_Kumar_Resume_June_2021.pdf)
+note: the file may not be accessible if the storage account is deleted or if the file has been accessed annonymously. To fix later, you can change the access level in as shown below in Blob service.
+![changing access for the file](./images/6.png)
