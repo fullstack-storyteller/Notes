@@ -50,5 +50,5 @@ More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/sto
 
 ![redundancy](./images/5.png)
 
-| Locally Redundant Storage|Geo Redundant Storage|Zone Redundant Storage|Geo-zone-redundant storage|
-||||
+| Locally Redundant Storage | Geo Redundant Storage | Zone Redundant Storage | Geo-zone-redundant storage |
+| ------------------------- | --------------------- | ---------------------- | -------------------------- |
