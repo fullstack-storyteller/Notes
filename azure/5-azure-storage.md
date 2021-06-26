@@ -19,6 +19,11 @@
 - Redundancy: to ensure high availability, various redundany options are provided by Azure
   ![redundancy](./images/5.png)
 
-## Blob Service
+## Blob Service \[ Binary Large Object \]
 
-To upload any object in Blocb service, first created a container. You can simply create a container in azure storage account and use to hold any object, a file or a image but in the end, the data is stored in binary forma..
+To upload any object in Blocb service, first created a container. You can simply create a container in azure storage account and use to hold any object, a file or a image but in the end, the data is stored in binary format.
+
+Container is a logical unit that is used for hosting your object.
+
+You edit, download and the file you stored in Blob, and you also get an URL for each specific object to access or download it. Example below
+[Our Uploaded file](https://manishstorage01.blob.core.windows.net/data/Manish_Kumar_Resume_June_2021.pdf)
