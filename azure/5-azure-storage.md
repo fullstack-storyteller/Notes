@@ -35,7 +35,12 @@ We can allow applications to access the data stored in the storage account.
 
 ### Access Tier
 
-It can be Cool and Hot and Archive( only available at the Blob Service Level) and Hot is default. Hot is also the prociest to store. while Cool and Archived have much higher read/access rate.
+At storage account level: Hot and Cool
+At Blob object level: Hot, Cool and Archive. Hot is default. Hot is also the prociest to store. while Cool and Archived have much higher read/access rate.
+
+Note: Archive access tier will not be available and its access will take time. We will need to rehydrate the blob, i.e. Change Tier to Hot or Cold, give rehydrate priority as Standard or higher, then it will take time to change its tier and make the file available for download.
+
+![Accessing an archived Blob file](./images/8.png)
 
 More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
 
