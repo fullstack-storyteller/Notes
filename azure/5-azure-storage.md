@@ -45,3 +45,9 @@ Note: Archive access tier will not be available and its access will take time. W
 More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
 
 ![Relation](./images/7.png)
+
+## Data Replication & Data Redundant Storage
+
+![redundancy](./images/5.png)
+
+|Locally Redundant Storage|Geo Redundant Storage|Zone Redundant Storage|Geo-zone-redundant storage|
