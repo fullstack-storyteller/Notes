@@ -50,5 +50,8 @@ More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/sto
 
 ![redundancy](./images/5.png)
 
-| Locally Redundant Storage | Geo Redundant Storage | Zone Redundant Storage | Geo-zone-redundant storage |
-| ------------------------- | --------------------- | ---------------------- | -------------------------- |
+| Locally Redundant Storage (LRS)                                                                     | Geo Redundant Storage (GRS)                                                                                                                                       | Zone Redundant Storage (ZRS) | Geo-zone-redundant storage (GZRS) |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------------- |
+| Data gets stored in underlying datacenter, and three copies will be made within the same Datacenter | Data gets replicate synchronously between three Azure availability zones. Each zone is separate physical location with independant power, cooling and networking. | ---------------------------- | --------------------------------- |
+| It helps to protect against server rack of drive failures                                           | Even if the data center goes down your data will still be available                                                                                               | ---------------------------- | --------------------------------- |
+| Data will be lost if the data center goes down                                                      | If entire region goes down only then data will be lost                                                                                                            | ---------------------------- | --------------------------------- |
