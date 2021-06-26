@@ -26,7 +26,17 @@ To upload any object in Blocb service, first created a container. You can simply
 Container is a logical unit that is used for hosting your object.
 
 You edit, download and the file you stored in Blob, and you also get an URL for each specific object to access or download it. Example below
-[Our Uploaded file](https://manishstorage01.blob.core.windows.net/data/Manish_Kumar_Resume_June_2021.pdf)
+[Our uploaded file](https://manishstorage01.blob.core.windows.net/data/Manish_Kumar_Resume_June_2021.pdf)
 
-**Note:** the file may not be accessible if the storage account is deleted or if the file has been accessed annonymously. To fix later, you can change the access level in as shown below in Blob service.
+**Note:** The file may not be accessible if the storage account is deleted or if the file has been accessed annonymously. To fix later, you can change the access level in as shown below in Blob service.
 ![changing access for the file](./images/6.png)
+
+We can allow applications to access the data stored in the storage account.
+
+### Access Tier
+
+It can be Cool and Hot and Archive( only available at the Blob Service Level) and Hot is default. Hot is also the prociest to store. while Cool and Archived have much higher read/access rate.
+
+More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
+
+![Relation](./images/7.png)
