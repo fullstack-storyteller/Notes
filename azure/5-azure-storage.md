@@ -167,3 +167,13 @@ Go to storage account-> select queue service
 you can add messages to and also you can dequeue messages from it programmatically.
 
 ![queue in azure](./images/10.png)
+
+## Azure Table Storage
+
+1. This service can be used to store large amounts of structures NoSQL data in the cloud
+
+2. This is a key/attribute store that does not conform to any schema
+
+3. you can store data sets of your applications-user data, device infomation
+
+4. Don't use the table service if you have requirement for complex joins, foreign keys and stored procedures.
