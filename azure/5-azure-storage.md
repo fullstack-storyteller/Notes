@@ -158,3 +158,12 @@ PS Z:\data>
 
 
 ```
+
+## Azure Queue Service
+
+This service works the same way as any other service queue like JMS or MQ queue. They can be create the same way from the storage account.
+Go to storage account-> select queue service
+
+you can add messages to and also you can dequeue messages from it programmatically.
+
+![queue in azure](./images/10.png)
