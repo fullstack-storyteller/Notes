@@ -74,3 +74,86 @@ Multiple users can use a file share to store their data. It uses **Server Messag
 New file share will be create similar to how we create a blob storage, but we must have a premium storage account to have a premium file share.
 
 ![File share](./images/9.png)
+
+Remember that the concept of different rate / cost of access or read and write operation will also applied here.
+Hot tier will be procey to store data but cheaper while reading, which just opposite to Cool tier. so understand your data needs first.
+
+Within a file share you can create a directory and upload upload any file.
+
+**Note:** You can connect to the azure fileshare to you local machine too.
+
+Go to the storage account -> file share -> then click on connect.
+Once clicked, it will open the command that you can run in you corresponding operting system.
+Give an appropriate drive letter and select authentication as Storage account Key.
+In our case it was Windows, I open windows powershell and paste the command, the command wirst check the port 445 is open or not. Once testing is successful, It will add the new fileshare with the selected letter to your ocal machine.
+You can even create new files in it, and see it reflected in your fileshare in real time. Check below:
+
+```
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+                                                                                                                        Try the new cross-platform PowerShell https://aka.ms/pscore6                                                                                                                                                                                    PS C:\WINDOWS\system32> $connectTestResult = Test-NetConnection -ComputerName maniappstore1.file.core.windows.net -Port 445                                                                                                                     PS C:\WINDOWS\system32> if ($connectTestResult.TcpTestSucceeded) {
+>>     # Save the password so the drive will persist on reboot
+>>     cmd.exe /C "cmdkey /add:`"maniappstore1.file.core.windows.net`" /user:`"localhost\maniappstore1`" /pass:`"3D/1+WBEZgEJGyGI0euVBCxpfGPwES9FdvMFcC4aBWvNWnwDHooUeBPRxgcx9klkITBYoyxX2zrg7Pdb5Lt3VQ==`""
+>>     # Mount the drive
+>>     New-PSDrive -Name Z -PSProvider FileSystem -Root "\\maniappstore1.file.core.windows.net\demo" -Persist
+>> } else {
+>>     Write-Error -Message "Unable to reach the Azure storage account via port 445. Check to make sure your organization or ISP is not blocking port 445, or use Azure P2S VPN, Azure S2S VPN, or Express Route to tunnel SMB traffic over a different port."
+>> }
+
+CMDKEY: Credential added successfully.
+
+Name           Used (GB)     Free (GB) Provider      Root                                               CurrentLocation
+----           ---------     --------- --------      ----                                               ---------------
+Z                   0.00          1.00 FileSystem    \\maniappstore1.file.core.window...
+
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> z:
+PS Z:\> dir
+
+
+    Directory: Z:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13-07-2021     14:20                data
+
+
+PS Z:\> cd data
+PS Z:\data> dir
+
+
+    Directory: Z:\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        13-07-2021     14:20          61589 pic.jpeg
+
+
+PS Z:\data>
+PS Z:\data> echo "this is new file" >newfile.txt
+PS Z:\data> dir
+
+
+    Directory: Z:\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        13-07-2021     14:27             38 newfile.txt
+-a----        13-07-2021     14:20          61589 pic.jpeg
+
+
+PS Z:\data>
+
+
+
+
+
+
+
+
+
+```
