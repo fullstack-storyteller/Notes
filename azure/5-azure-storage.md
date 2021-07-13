@@ -184,3 +184,7 @@ To enter data into the table we must use **storage explorer** in the table servi
 
 Open Storage Explorer, go to Tables-> your table
 ![table storage](./images/11.png)
+
+## Region pairs or paired regions
+
+these are two regions within the same geography. it is handeled by Azure itself.
