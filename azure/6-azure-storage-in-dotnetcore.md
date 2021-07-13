@@ -1,5 +1,7 @@
 # How to use the azure storage in .net core
 
+## Using Blob Service
+
 1. Create a .net core console application.
 2. Then import/install the nuget package `Azure.Storage.blobs` for interacting with Azure storage account service.
 3. Choose your project and install, please refer below
@@ -12,3 +14,5 @@
 7. Follow the programming as shown in `GITHUB\Notes\dotnet\AzureBlobOnDotNetCore\`
 8. Refer the image of output below:
    ![output of blob storage from .netcore](./images/13.png)
+
+## Using Queue Service
