@@ -69,6 +69,8 @@ More details on Azure Data redundancy is [here](https://techcommunity.microsoft.
 
 ## Azure File Share Service
 
-Multiple users can use a file share to store their data. It uses **Server Message Block** protocol.
+Multiple users can use a file share to store their data. It uses **Server Message Block** protocol
+
+New file share will be create similar to how we create a blob storage, but we must have a premium storage account to have a premium file share.
 
 ![File share](./images/9.png)
