@@ -66,3 +66,7 @@ More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/sto
 More details on Azure Data redundancy is [here](https://techcommunity.microsoft.com/t5/azure-storage/understanding-azure-storage-redundancy-offerings/ba-p/1431700)
 
 **Note:** Be aware of potential data loss! Always check LastSyncTime before executing the failover.
+
+## Azure File Share service
+
+Multiple users can use a file share to store their data. It uses **Server Message Block** protocol.
