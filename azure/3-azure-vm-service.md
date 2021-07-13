@@ -48,7 +48,7 @@ Finally are reviewing and creating the VM, you will also receive the estimated c
 
 ![Resources after VM creation](./images/resources-after-vm-creation.jpg)
 
-Note: _*You can pig the public IP of the newly created VM yet, as only RDP is allowed on port 3389*_
+Note: _*You can't ping the public IP of the newly created VM yet, as only RDP is allowed on port 3389 by default*_
 
 So, go ahead and download the RDP file and launch it to connect to your first VM using the password you created.
 
