@@ -86,9 +86,10 @@ Go to the storage account -> file share -> then click on connect.
 Once clicked, it will open the command that you can run in you corresponding operting system.
 Give an appropriate drive letter and select authentication as Storage account Key.
 In our case it was Windows, I open windows powershell and paste the command, the command wirst check the port 445 is open or not. Once testing is successful, It will add the new fileshare with the selected letter to your ocal machine.
-You can even create new files in it, and see it reflected in your fileshare in real time. Check below:
+You can even create new files in it, and see it reflected in your fileshare in real time. Check below
 
-```
+```powershell
+
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
                                                                                                                         Try the new cross-platform PowerShell https://aka.ms/pscore6                                                                                                                                                                                    PS C:\WINDOWS\system32> $connectTestResult = Test-NetConnection -ComputerName maniappstore1.file.core.windows.net -Port 445                                                                                                                     PS C:\WINDOWS\system32> if ($connectTestResult.TcpTestSucceeded) {
