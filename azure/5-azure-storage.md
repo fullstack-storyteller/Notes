@@ -177,3 +177,10 @@ you can add messages to and also you can dequeue messages from it programmatical
 3. you can store data sets of your applications-user data, device infomation
 
 4. Don't use the table service if you have requirement for complex joins, foreign keys and stored procedures.
+
+Creation of Table service is similar to the queue service, i.e. go to storage account-> click on table service-> give table name -> done
+
+To enter data into the table we must use **storage explorer** in the table service
+
+Open Storage Explorer, go to Tables-> your table
+![table storage](./images/11.png)
