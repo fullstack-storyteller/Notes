@@ -183,6 +183,7 @@ Creation of Table service is similar to the queue service, i.e. go to storage ac
 To enter data into the table we must use **storage explorer** in the table service
 
 Open Storage Explorer, go to Tables-> your table
+
 ![table storage](./images/11.png)
 
 ## Region pairs or paired regions
