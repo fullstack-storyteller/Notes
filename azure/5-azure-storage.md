@@ -21,7 +21,7 @@
 
 ## Blob Service \[ Binary Large Object \]
 
-To upload any object in Blocb service, first created a container. You can simply create a container in azure storage account and use to hold any object, a file or a image but in the end, the data is stored in binary format.
+To upload any object in Blob service, first created a container. You can simply create a container in azure storage account and use to hold any object, a file or a image but in the end, the data is stored in binary format.
 
 Container is a logical unit that is used for hosting your object.
 
@@ -54,11 +54,11 @@ More details are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/sto
 
 1. Geography: A discrete market,typically containing 2+ regions, that preserves data residency and compliance boundaries
 2. Azure region: a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low latency network
-3. Region pair: each Azure region is paired with another region within the smae geography
+3. Region pair: each Azure region is paired with another region within the same geography
 4. Availability Zones: a physically separate location within an Azure region. Each AZ is made up of 1+ datacenters with independent power, cooling and networking.
 5. Availability: defnied by gartner as the assurance that an enterprize's IT infrastructure has suitable recoverability and protection from the system failures, natural disasters or malicious attacks. High Availability refers to a system that is operational without interruption for long periods of time by using redundant or fault tolerant components and is typically measured as a percentage.
 6. Recovery point objective(RPO): the amount of data which can be lost while bringing the system back online after a critical failure, i.e. the point in time to which the data be recovered.
-7. Recovery time objective(RTO): the amount og time that it takes to get the system back online after a critical failure, i.e. how long you can sustain a service interruption before you absolutely need to be back online.
+7. Recovery time objective(RTO): the amount of time that it takes to get the system back online after a critical failure, i.e. how long you can sustain a service interruption before you absolutely need to be back online.
 
 | Locally Redundant Storage (LRS) | Geo Redundant Storage (GRS) | Zone Redundant Storage (ZRS) | Geo-zone-redundant storage (GZRS) |
 | ------------------------------- | --------------------------- | ---------------------------- | --------------------------------- |
