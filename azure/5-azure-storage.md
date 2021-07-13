@@ -67,6 +67,8 @@ More details on Azure Data redundancy is [here](https://techcommunity.microsoft.
 
 **Note:** Be aware of potential data loss! Always check LastSyncTime before executing the failover.
 
-## Azure File Share service
+## Azure File Share Service
 
 Multiple users can use a file share to store their data. It uses **Server Message Block** protocol.
+
+![File share](./images/9.png)
