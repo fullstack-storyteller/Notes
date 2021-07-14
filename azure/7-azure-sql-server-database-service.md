@@ -1,0 +1,43 @@
+# Azure SQL Server Database service
+
+## How options do we have
+
+1. Infrastructure as a Service
+
+   > Here we will first create a VM on Azure, then we go ahead and install SQL server software. Once that is done, we install the sql management studio to create and manage databases.
+
+   > Advantage is the we have full control over the SQL Engine. Its very easy to migrate from an on-premise instanc, becasue you can install your own database version. it also provide Provate IP addressing
+
+   > Disadvantages are: you are responsible for managing underlying VM and SQL Instance. You also may have to implement your own high availabiltity solution and you also need to manage the backups
+
+2. Platform as a Service
+
+   > Azure SQL Database option provides a lot of benefits. You don't have to worry about managing the underlying VM. The platform manages it for you. it takes care of backup or patching etc.. You can just go ahead and setup the database itself
+
+   > Advantages are: 99.99% availability, automated backups, recovery and patching and it also has built in advanced intelligence and security
+
+   > Disadvantages are: Migration from an existing on-premise server instance will be very difficult, some SQL features may not be available,and you will not have the concept of provate IP addressing instead you will have to manage access through firewalls.
+
+## Types of Azure SQL databases
+
+1. Single Database -> you can create a single database on Azure sQL server
+2. Managed Instance -> Preferred option for companies who just want to lift and shift their exisitng databases to Azure
+3. Elastic pool -> We can also combine multiple sql databases so that all of them share the underlying resources and save cost.
+
+## Azure SQL Server: Purchasing MODELS
+
+1. Database transaction Unit (DTU model)
+
+   > Blendedmeasure of CPU memory and read and write rates
+
+   > There different service tier available. Refer [this](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu)...
+
+2. vCore-based model
+
+   > Here you can independently scale your compute and storage.
+
+   > you can also choose different service tiers. Refer [this](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore)
+
+   > You also have replicas for ensuring high availability
+
+   > You can also make use of the Azure Hybrid Benefit, i.e. you can save cost if you have exisitng sql server license
