@@ -41,3 +41,13 @@
    > You also have replicas for ensuring high availability
 
    > You can also make use of the Azure Hybrid Benefit, i.e. you can save cost if you have exisitng sql server license
+
+3. Managed Instance Offer
+
+   > Newdeployment model which allows for easy migrationof existing on-premiseSQL server databases
+
+   > Provides 100% compatibility with the latest SQL server on-proemise (Enterprise Edition) database Engine
+
+   > Native virtual netowrk implementation more secure than firewalls
+
+   > No management if the infrastructure
