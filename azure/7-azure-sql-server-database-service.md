@@ -68,3 +68,5 @@ you may need to add new firewall rules to permit its access to users. You can al
 
 Note: Add some sample data or backup data as below:
 ![data](./images/19.PNG)
+
+**This will create a sql database and a sql server (managed by microsft offcourse)**
