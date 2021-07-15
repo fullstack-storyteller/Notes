@@ -24,3 +24,8 @@ You can also create a `Dedicated SQL Pool` if you want the tables to persists.
 ![sql pool](./images/24.PNG)
 
 **NOTE**: Creating a Dedicate SQL Pool is very costly, so make sure to delete the resource once your work is done, well, at least in trial version.
+
+When you create a Dedicate SQL Pool, you will able to connect to it using SQL Management Studio, just like you would with a Database.
+Just use username from overview page and the password you created earlier to connect to the workspace.
+As shown below:
+![dedicate sql pool](./images/25.PNG)
