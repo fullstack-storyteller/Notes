@@ -21,7 +21,7 @@
 ## Types of Azure SQL databases
 
 1. Single Database -> you can create a single database on Azure sQL server
-2. Managed Instance -> Preferred option for companies who just want to lift and shift their exisitng databases to Azure
+2. Managed Instance -> Preferred option for companies who just want to lift and shift their exisitng databases to Azure. This is also fully managed and scalable service offering
 3. Elastic pool -> We can also combine multiple sql databases so that all of them share the underlying resources and save cost.
 
 ## Azure SQL Server: Purchasing MODELS
