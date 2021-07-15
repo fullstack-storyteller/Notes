@@ -60,13 +60,16 @@ We can create it similar to any other resource. New resource->SQL databases->Cre
 
 Note: You should choose your compute and storage ccording to you needs by clicking on `Configure Database`.
 Different configurations are listed below:
+
 ![Different configs](./images/17.PNG)
 
 Note: by default no one will be able to access the database you created just now.
 you may need to add new firewall rules to permit its access to users. You can also go ahead and add your current IP to allowed list by simply selecting the "Add current client IP address"
+
 ![firewall configuration](./images/18.PNG)
 
 Note: Add some sample data or backup data as below:
+
 ![data](./images/19.PNG)
 
 **This will create a sql database and a sql server (managed by microsft offcourse)**
