@@ -51,3 +51,13 @@
    > Native virtual netowrk implementation more secure than firewalls
 
    > No management if the infrastructure
+
+## Working with a SQL database
+
+Note: the underlying SQL server that you create will be managed by Microsoft
+
+We can create it similar to any other resource. New resource->SQL databases->Create-> give proper details like database name and sql database server name (must be unique) `demodatabaseformanish.database.windows.net`-> give username `manish` and password `UZy@996sJR//1` (this will be used in sql management studio to access the DB)
+
+Note: You should choose your compute and storage ccording to you needs by clicking on `Configure Database`.
+Different configurations are listed below:
+![Different configs](./images/17.PNG)
