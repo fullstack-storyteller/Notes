@@ -82,8 +82,10 @@ Note: Add some sample data or backup data as below:
 
 ![resource created](./images/20.PNG)
 
-## using the Azure SQL server database from your local
+## Using the Azure SQL server database from your local
 
 - Download the Sql Server Management studio
 - Connect using the server name and sql server authentication (i.e. the username and password created during the creation phase of the sql server database)
 - if you have choose to select the demo database provided by microsft you will see some table in the database automatically
+
+![How to connect](./images/22.PNG)
