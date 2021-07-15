@@ -68,8 +68,22 @@ you may need to add new firewall rules to permit its access to users. You can al
 
 ![firewall configuration](./images/18.PNG)
 
+once the sql server and database is create, you can actually set some more firewall rules to enable other clients to connect to the database. as below by using "Set firewall":
+
+select the new sql database -> click on `Set server firewall`-> then you can specify the ip address or IP address range to be included / approve to connect to the database
+
+![firewall](./images/21.PNG)
+
 Note: Add some sample data or backup data as below:
 
 ![data](./images/19.PNG)
 
 **This will create a sql database and a sql server (managed by microsft offcourse)**
+
+![resource created](./images/20.PNG)
+
+## using the Azure SQL server database from your local
+
+- Download the Sql Server Management studio
+- Connect using the server name and sql server authentication (i.e. the username and password created during the creation phase of the sql server database)
+- if you have choose to select the demo database provided by microsft you will see some table in the database automatically
