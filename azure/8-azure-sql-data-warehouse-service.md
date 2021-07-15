@@ -29,3 +29,31 @@ When you create a Dedicate SQL Pool, you will able to connect to it using SQL Ma
 Just use username from overview page and the password you created earlier to connect to the workspace.
 As shown below:
 ![dedicate sql pool](./images/25.PNG)
+
+Note: Primary purpose of Azure synapse is to host your SQL pools
+
+## Transferring data from an Azure SQL database to Azure dedicate SQL Pool
+
+To do this, I
+
+- created a new Azure sql database, with sample data.
+- I already had the dedicate sql pool from above.
+- created a resource called "azure data factory".
+
+  > Azure Data factory Service is an ETL (Extract dat from source, transforming your data and Loading the data in a destination) tool.
+
+- connect the sql datbase using ssms tool.
+
+- Now we create the Azure data fatory service resource.
+- Once created we need to oen the service console and create connections with source and destination of data and then deploy it.
+- Once deployment is done, a pipeline will be created and data will be copied from sql database to dedicate sql pool in synapse workspace
+
+Please refer below:
+
+1. Before data copy using data factory
+
+   ![Before data copy using datafactory](./images/26.PNG)
+
+2. After data copy
+
+   ![after data copy](./images/27.PNG)
