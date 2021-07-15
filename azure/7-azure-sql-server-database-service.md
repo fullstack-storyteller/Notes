@@ -89,3 +89,6 @@ Note: Add some sample data or backup data as below:
 - if you have choose to select the demo database provided by microsft you will see some table in the database automatically
 
 ![How to connect](./images/22.PNG)
+
+Note: You can even you sql query editor on Azure portal associated to your Azure SQL Database!!!
+![SQL Query Editor](./images/23.PNG)
