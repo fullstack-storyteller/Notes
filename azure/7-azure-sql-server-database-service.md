@@ -90,5 +90,6 @@ Note: Add some sample data or backup data as below:
 
 ![How to connect](./images/22.PNG)
 
-Note: You can even you sql query editor on Azure portal associated to your Azure SQL Database!!!
+Note: You can even you sql query editor on Azure portal associated to your Azure SQL Database!!! But remember that it is still in preview version and has minimal functionality. so your first choice still should be the Sql Server Management Studio.
+
 ![SQL Query Editor](./images/23.PNG)
