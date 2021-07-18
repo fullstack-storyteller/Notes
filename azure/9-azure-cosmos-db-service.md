@@ -25,3 +25,31 @@ NoSQL database = Non-relational database
   > Cassandra API: This is a column based database
 
   > Gremlin API: This is a graph-based database.
+
+## creating an Cosmos DB account
+
+Search for Azure Cosmos DB -> give usinque account name -> Select the type of API (as discussed in above section) -> here, you are not charged for te CPU, but you are charged for storage and input/output (Requests units per second) -> review and create
+
+You can create container (as databases) to store JSON documents. You may need to create a partition key which help cosmos DB partition your data to make searching easier. we will learn more about this in Azure developer course.
+
+Note: ID (created automatically by cosmos db) and partition key (created by us) help to identify a particular record within a container in Cosmos DB.
+
+Example data in Azure Cosmos DB:
+
+```json
+{
+    "customerid":"c1",
+    "customername": "User1",
+    "customercity": "New York"
+}
+{
+    "customerid":"c2",
+    "customername": "User2",
+    "customercity": "Chicago"
+}
+{
+    "customerid":"c3",
+    "customername": "User3",
+    "customercity": "Chicago"
+}
+```
