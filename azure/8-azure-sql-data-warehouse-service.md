@@ -57,3 +57,11 @@ Please refer below:
 2. After data copy
 
    ![after data copy](./images/27.PNG)
+
+**Note:**
+You can use Power BI tools to connect to the Azure Synapse Analytics to create visualizations on the data you imported to the dedicated sql pools using Azure Data factory. Just use the dedicated sql endpoint and username/password to connect to the Synapse workspace.
+
+## Azure Data Lake storage
+
+Data Lakes store huge amounts of data which can be processed at a later amount of time or sent to the data warehouses.
+Creating tt is similar to creating a storage account but we make sure to enable the `hierarchical Namespace` in the `Advance` tab while creating the data lake storage account (Data Lake Storage Gen2).
