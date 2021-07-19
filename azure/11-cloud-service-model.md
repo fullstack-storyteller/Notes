@@ -33,3 +33,5 @@ There are three type of cloud service model:
 - Here you just start directly using the software
 - You can access your application data from anywhere.
 - You don't have the headache of managing anyhting.
+
+## Cloud Model Types
