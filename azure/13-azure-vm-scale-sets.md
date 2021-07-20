@@ -25,3 +25,11 @@ Once the scale set is create, you will have one VM deployed for you. SSH into th
 
 Created instance in the beginning using Scale set:
 ![intial](./images/39.PNG)
+
+Get the public ip of the new initial VM, and SSH into it using putty, i.e. give the public ip in putty and login using the username and password created during scale set creation:
+![putty](./images/40.PNG)
+
+Update the packages on this Vm using `sudo apt-get update`
+Install the stress program by issuing the command `sudo apt-get install -y stress`
+
+Issue command for inducing stree on cpu to 90% `sudo stress --cpu 90`
