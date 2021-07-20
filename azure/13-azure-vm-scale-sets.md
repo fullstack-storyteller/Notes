@@ -41,3 +41,7 @@ If we go to Scaleset resource-> overview and monitoring, we see:
 ![graph](./images/42.PNG)
 
 What we are expecting after 10 minutes is that we have the maximum number of VM allowed in the scale set.
+
+And we get the below results:
+
+![result](./images/43.PNG)
