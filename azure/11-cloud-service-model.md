@@ -8,6 +8,13 @@ There are three type of cloud service model:
 
 ![service models](./images/33.png)
 
+**Note**:
+
+- Scale up: increase virtual cpus
+- Scale down: decrease virtual cpus
+- Scale out: increase the number of virtual machines
+- Scale in: decrease the number of virtual machines
+
 ## Infrastructure as a Service (IaaS)
 
 - An example is the Azure virtual machine service
@@ -35,3 +42,56 @@ There are three type of cloud service model:
 - You don't have the headache of managing anyhting.
 
 ## Cloud Model Types
+
+### Public cloud
+
+- These are services that are offered over the public internet.
+- Its available to anybody who wants to use them. Users then pay based on service they use.
+- Here all the servers and storage is managed by the cloud provider.
+- Ex: Azure, AWS and GCP
+- No need for a capital investment - you normally don't pay an money upfront to use a cloud service. Most of the services are based on a pay-as-you-go model.
+- you don't need to manage the underlying physical infrastructure. Hence on-going maintenance costs are also reduced.
+- Cloud providers such as Azure have data centers located at different regions accross the world
+- You can quickly provision resources on the cloud. It allows you to get up and reunning in no time.
+
+### Private Cloud
+
+- These are set of services that are normally only used by users of a business or organization.
+- The private cloud could be hosted either on the companies's on-premise environment. Or, it could be provided by a third party service provider.
+- The business has complete control over the environment.
+- They can implement their own security protocols at every layer to secure the environment.
+- The data held in the environment is in complete control by the business.
+
+### Hybrid Cloud
+
+- This is a combination of both the public and the private cloud
+- It allows data and applications to be shared accross both the cloud environments.
+- Businesses can still leverage their existing on-premise environment. This is important if they have already made a substantial investment in getting their environment in place.
+- They can keep data which needs to be secured by their standards in their on-premise environment.
+- They can extend their infrastructure to the cloud making a further investment.
+- They can move workloads to the cloud gradually.
+
+## Economies of scale
+
+- This is the ability of carrying out tasks more efficiently or at a lower cost per unit when operating at a larger scale
+- Cloud providers can actually buy hardware at a large discount.
+- And they can pass the costs to customers.
+- And if the number of customers increase, the chances of services costs can go down
+
+### Capital Expenditure
+
+- This is the spending of money on physical infrastructure upfront.
+- Examples of Capital expenditure
+  > Server costs, Storage costs, network costs, backup adn archive costs, datacenter infrastructure costs, buy software licenses
+
+### Operational expenditure (OpEx)
+
+- Ongoing money spent for services and products
+- This is a recurring cost
+- Yearly support agreement with vendors that need to be renewed
+- Keeping hardware running - thie electricity, cooling etc.
+
+## Sahred responsibility model
+
+Please refer the below screenshot:
+![shared responsibility](./images/34.png)
