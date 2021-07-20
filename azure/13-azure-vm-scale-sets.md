@@ -34,5 +34,8 @@ Install the stress program by issuing the command `sudo apt-get install -y stres
 
 Issue command for inducing stree on cpu to 90% `sudo stress --cpu 90`
 
-begginging of 10 minutes, we see one instance:
+beginging of 10 minutes, we see one instance:
 ![beginning](./images/41.PNG)
+
+If we go to Scaleset resource-> overview and monitoring, we see:
+![graph](./images/42.PNG)
