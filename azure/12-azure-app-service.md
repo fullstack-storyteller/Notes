@@ -24,4 +24,5 @@ Right click on the project in solution explorer-> click on publish-> select targ
 Click on finish and wait and click on `Publish`
 
 Once done refresh the app service instance url again.
+
 ![deployed web app](./images/37.PNG)
