@@ -45,3 +45,7 @@ What we are expecting after 10 minutes is that we have the maximum number of VM 
 And we get the below results:
 
 ![result](./images/43.PNG)
+
+When you stop the stress program, the azure scale set will scale in the VMs and finally you will see that only one VM is running as per our initial configuration
+
+![finally](./images/44.PNG)
