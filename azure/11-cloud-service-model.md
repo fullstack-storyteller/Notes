@@ -15,6 +15,11 @@ There are three type of cloud service model:
 - Scale out: increase the number of virtual machines
 - Scale in: decrease the number of virtual machines
 
+**Note**:
+
+- Elasticity: architecture which can scale on demand
+- Disaster Recovery: This refers to the concept of minimizing IT disruptions by recovering them to another data center that could be located hundreds to miles away from the original data center hosting your application.
+
 ## Infrastructure as a Service (IaaS)
 
 - An example is the Azure virtual machine service
@@ -91,7 +96,7 @@ There are three type of cloud service model:
 - Yearly support agreement with vendors that need to be renewed
 - Keeping hardware running - thie electricity, cooling etc.
 
-## Sahred responsibility model
+## Shared responsibility model
 
 Please refer the below screenshot:
 ![shared responsibility](./images/34.png)
