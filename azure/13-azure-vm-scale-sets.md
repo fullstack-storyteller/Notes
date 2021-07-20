@@ -33,3 +33,6 @@ Update the packages on this Vm using `sudo apt-get update`
 Install the stress program by issuing the command `sudo apt-get install -y stress`
 
 Issue command for inducing stree on cpu to 90% `sudo stress --cpu 90`
+
+begginging of 10 minutes, we see one instance:
+![beginning](./images/41.PNG)
