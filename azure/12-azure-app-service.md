@@ -19,6 +19,7 @@ Search Azure web app -> Click on create -> select resource group and give a uniq
 Now you can create a .net core project in Azure and then publish it to you web app you just created.
 
 Right click on the project in solution explorer-> click on publish-> select target as Azure -> Azure App Service(Windows, because that what we created web app service instance in our azure portal)-> based on your subscription, the visual studio will show the app services instances, in our case it was shown as below:
+
 ![instance](./images/36.PNG)
 
 Click on finish and wait and click on `Publish`
