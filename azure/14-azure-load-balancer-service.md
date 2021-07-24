@@ -14,8 +14,8 @@ This the public IP or url which the end users are hitting to access the applicat
 
 ### Health Probe
 
-This is used by the load balancer to understand whether the nodes / Vms are healthy or not. In this we define kind of a ping request or a heartbeat, i.e. please at regular intervals send a request to the virtual machine on a particular port number and if you get a response back within a required threshold limit, then you can deem that instance as healthy and send the user request to the Node/VM.
+This is used by the load balancer to understand whether the nodes / VMs are healthy or not. In this we define kind of a ping request or a heartbeat, i.e. please at regular intervals send a request to the virtual machine on a particular port number and if you get a response back within a required threshold limit, then you can deem that instance as healthy and send the user request to the Node/VM.
 
 ### Load balancing rules
 
-Now we know that we have to direct the traffic to the backend pool, we still need to know which port (like port 80 or 443) of the VMs to send the traffic and using what scheduling protocol, i.e. round robin or anything else.
+Now we know that we have to direct the traffic to the backend pool, we still need to know which port (like port 80 or 443) of the VMs to send the traffic and using what scheduling protocol.
