@@ -32,7 +32,7 @@ After publishing to both the regions the deployed sites look as below:
 
 **Now**, lets create the traffic manager profile from Azure marketplace
 Please check the below routing methods available for azure traffic manager:
-![routing](48.PNG)
+![routing](./images/48.PNG)
 
 **Note:** Notice that while creating this azure traffic manager profile, we don't have to specify any specific region or location
 
@@ -42,4 +42,4 @@ Please check the below routing methods available for azure traffic manager:
 - Once the traffic manager is ready, define endpoints, in our case both primary and secondary endpoints for our primary and secondary dns names/website that we deployed.
   - If the endpoint is your on prem dns name, choose the `external endpoint`
   - in our case we have the Azure Web apps, so we will choose the `Azure end points`
-  - ![endpoint type](./images/48.PNG)
+  - ![endpoint type](./images/49.PNG)
