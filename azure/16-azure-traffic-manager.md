@@ -62,4 +62,8 @@ Please check the below routing methods available for azure traffic manager:
   - ![final](./images/53.PNG)
 
 - **Finally**, we must ensure that our endpoints are healthy. this can be checked using configuration tab of the traffic manager
+
   - ![configuration for endpoint health](./images/54.PNG)
+
+- Wait for some time till you see the traffic manager endpoint is showing online.
+  - ![endpoint health](./images/55.PNG)
