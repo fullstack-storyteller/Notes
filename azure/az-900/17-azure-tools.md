@@ -8,4 +8,10 @@
 
 - Open powershell as Administrator
 - Make sure that the execution policy in powerhell is set as `RemoteSigned`, if not run command `Set-ExecutionPolicy RemoteSigned`
+
   - ![execution policy](./images/59.PNG)
+  - This will allow us to install remotely signed packages
+
+- The we run the command `Install-Module -Name Az -AllowClobber -Scope CurrentUser` to install all of the azure modules for the current user
+- Run command `Import-Module Az -Verbose`
+- Once modules are imported, run `Connect-AzAccount` to login into microsoft Azure
