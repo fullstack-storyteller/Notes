@@ -29,3 +29,11 @@ Note: there are several other methods available. Check [this](https://docs.micro
 After publishing to both the regions the deployed sites look as below:
 
 ![Deployed both](./images/47.png)
+
+**Now**, lets create the traffic manager profile from Azure marketplace
+Please check the below routing methods available for azure traffic manager:
+![routing](48.PNG)
+
+**Note:** Notice that while creating this azure traffic manager profile, we don't have to specify any specific region or location
+
+Please wait for the traffic manager profile to be created.
