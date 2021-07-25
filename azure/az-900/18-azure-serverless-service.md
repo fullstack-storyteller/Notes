@@ -24,3 +24,10 @@ The help to:
 - Azure Event Grid: Here you can listen to events emitted from the Azure services. you can also develop your own custom events.
   - You canthen process the events accordingly
 - Azure Service Bus: This is a messaging system that is available on Azure
+
+## Other Serverless Tools
+
+- Azure DevOps: Here you can manage the continuous integration and delivery for you applications
+- Azure SQL Database Serverless: This is a deployment option available for Azure SQL databases.
+  - Here you are chanrge only for the computer used persecond.
+- Azure Cosmos DB: This is multi-model database service.
