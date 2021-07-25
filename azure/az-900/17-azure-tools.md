@@ -26,3 +26,10 @@ Install the Azure CLI from microsoft website. The you can launch the Azure CLI e
 - In command prompt, issue command `az login` and give credentials.
 
 - Once logged in, you can issue this command to return the resource groups from the a specific region: `az group list --query "[?location=='eastus']"`
+
+## Azure Cloudshell
+
+We can use cloudshell to directly interact with
+Azure resources. you will have the option to use bash as well as powershell in cloudshell
+
+**Note:** You must have an exisitng storage account to work with Azure cloudshell
