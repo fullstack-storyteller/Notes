@@ -52,4 +52,8 @@ Please check the below routing methods available for azure traffic manager:
   - ![target resource type](./images/50.PNG)
 
 - Finally select the priority as 1 for primary website and 2, 3, 4...for subsequent website/end points
+
   - ![priority](./images/51.PNG)
+
+- It will finally look something like this
+  - ![final](./images/52.PNG)
