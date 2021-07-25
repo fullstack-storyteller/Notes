@@ -106,5 +106,6 @@ And below the screen where is asks us to select necessary parameters for the scr
 Finally review and create!
 
 **Note:** Please make sure the storage account name or any name for that matter is given correctly, otherwise you may the below error
+**Note:** Make sure that the apiVersion which you are mentioning in the templates is what exactly you need. Check out the Microsoft Documentation [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/).
 
 ![Error](./images/46.png)
