@@ -102,3 +102,5 @@ Using the above option will ensure error free templates and and will also take c
 
 And below the screen where is asks us to select necessary parameters for the scripts and resource groups:
 ![parameters and resource groups](./images/45.PNG)
+
+Finally review and create!
