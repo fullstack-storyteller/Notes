@@ -40,6 +40,16 @@ Please check the below routing methods available for azure traffic manager:
 
 - Please wait for the traffic manager profile to be created.
 - Once the traffic manager is ready, define endpoints, in our case both primary and secondary endpoints for our primary and secondary dns names/website that we deployed.
+
   - If the endpoint is your on prem dns name, choose the `external endpoint`
-  - in our case we have the Azure Web apps, so we will choose the `Azure end points`
+  - in our case we have the Azure Web apps, so we will choose the `Azure endpoint`
   - ![endpoint type](./images/49.PNG)
+
+- Coming to the target resource type:
+
+  - Since we have web app service, we will select `app service`
+  - If we had a VM, we will select the public IP Address, but rememeber since traffic manager is a dns based routing service, the VM should have the dns name assigned to it.
+  - ![target resource type](./images/50.PNG)
+
+- Finally select the priority as 1 for primary website and 2, 3, 4...for subsequent website/end points
+  - ![priority](./images/51.PNG)
