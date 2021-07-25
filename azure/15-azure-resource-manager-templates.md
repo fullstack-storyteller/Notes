@@ -107,4 +107,4 @@ Finally review and create!
 
 **Note:** Please make sure the storage account name or any name for that matter is given correctly, otherwise you may the below error
 
-![Error](./images/46.PNG)
+![Error](./images/46.png)
