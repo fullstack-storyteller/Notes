@@ -71,3 +71,4 @@ Please check the below routing methods available for azure traffic manager:
   - ![success results from primary](./images/56.PNG)
 - Now bring down the primary staging web app, by clicking on the `stop` in the primary web app. This will simulate a downtime for the primary web app. thus we are expecting the secondary region or web app to be served to the user using the same traffic manager dns endpoint. You should wait for sometime for the traffic manager to detect the downtime of the primary app.
   - ![success secondary region](./images/57.PNG)
+  - ![traffic manager endpoint](./images/58.PNG)
