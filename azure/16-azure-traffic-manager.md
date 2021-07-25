@@ -57,3 +57,5 @@ Please check the below routing methods available for azure traffic manager:
 
 - It will finally look something like this
   - ![final](./images/52.PNG)
+- Do the same for your secondary website and give the priority as 2. It should finally look like below:
+  - ![final](./images/53.PNG)
