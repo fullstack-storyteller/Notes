@@ -15,3 +15,4 @@
 - The we run the command `Install-Module -Name Az -AllowClobber -Scope CurrentUser` to install all of the azure modules for the current user
 - Run command `Import-Module Az -Verbose`
 - Once modules are imported, run `Connect-AzAccount` to login into microsoft Azure
+- Now we can run Azure commands: Run `Get-AzResourceGroup -Location centralus` to get resources from centralus region
