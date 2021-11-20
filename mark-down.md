@@ -114,9 +114,9 @@ Simply, trying to display a url in a paragraph, `https://example.com` (use backt
 
 ## Table with numbers/ bulleted data in cells
 
-Notice how the ordered and unordered lists are written in a single line. 
+Notice how the ordered and unordered lists are written in a single line.
 
-| Column 1 | Column 2 |
-| -------- | -------- |
-| <ul><li>A</li><li>B</li><li>C</li><li>D</li></ul>        | <ol><li>A<ul><li>A1</li><li>A2</li></ul></li><li>B<ul><li>B1</li><li>B2</li><li>B3</li><li>B4</li></ul></li></ol>        |
-| X        | Y        |
+| Column 1                                          | Column 2                                                                                                          |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| <ul><li>A</li><li>B</li><li>C</li><li>D</li></ul> | <ol><li>A<ul><li>A1</li><li>A2</li></ul></li><li>B<ul><li>B1</li><li>B2</li><li>B3</li><li>B4</li></ul></li></ol> |
+| X                                                 | Y                                                                                                                 |
